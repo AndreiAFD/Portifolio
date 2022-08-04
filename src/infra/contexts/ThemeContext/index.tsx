@@ -1,5 +1,5 @@
-import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import React, { createContext, useState } from "react";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../../../core/theme/theme";
 
@@ -8,7 +8,12 @@ enum ThemeEnum {
   dark = "dark",
 }
 
-export const AppThemeContext = createContext({});
+interface AppThemeContextProps {
+  theme?: string;
+  handleChangeTheme?: (theme: ThemeEnum) => void;
+}
+
+export const AppThemeContext = createContext<AppThemeContextProps>({});
 
 export const AppThemeContextProvider = ({ children }: { children: any }) => {
   const [actualTheme, setActualTheme] = useState<ThemeEnum>(ThemeEnum.light);
@@ -19,8 +24,17 @@ export const AppThemeContextProvider = ({ children }: { children: any }) => {
     },
   });
 
+  const handleChangeTheme = (theme: ThemeEnum) => {
+    setActualTheme(theme);
+  };
+
   return (
-    <AppThemeContext.Provider value={{}}>
+    <AppThemeContext.Provider
+      value={{
+        theme: actualTheme,
+        handleChangeTheme,
+      }}
+    >
       <ThemeProvider theme={theme[actualTheme]}>
         <ChakraProvider theme={chakraTheme}>{children}</ChakraProvider>
       </ThemeProvider>

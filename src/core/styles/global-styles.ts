@@ -15,7 +15,54 @@ export const GlobalStyles = createGlobalStyle`
 
   }
 
-  #root {
-    background-color: lightgreen;
+  @keyframes from-left-about {
+    from {
+      opacity: 0;
+      margin-left: -100px;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 20px;
+    }
   }
+
+
+  @keyframes from-left-portifolio {
+    from {
+      opacity: 0;
+      margin-left: -100px;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 20px;
+    }
+  }
+
+  @keyframes from-left-contact {
+    from {
+      opacity: 0;
+      margin-left: -100px;
+    }
+
+    to {
+      opacity: 1;
+      margin-left: 20px;
+    }
+  }
+
+  @keyframes title-header-shaddow {
+    from {
+      bottom: -200px;
+      transform: rotate(0deg);
+    }
+
+    to {
+      bottom: -90px;
+      transform: rotate(-1.5deg);
+
+    }
+  }
+
 `;

@@ -1,3 +1,5 @@
-export const routePaths = {
-  about: "about-me",
-};
+export enum RoutePaths {
+  about = "/",
+  portifolio = "/portifolio",
+  contact = "/contact",
+}

@@ -1,8 +1,8 @@
-import React, { useCallback } from "react";
-// import {} from "";
+import React from "react";
 import * as S from "./styles";
-import { Text, useTheme } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import { Link, useLocation } from "react-router-dom";
+import { RoutePaths } from "../../../infra/routes/paths";
 
 enum PathNamesEnum {
   aboutme = "/",
@@ -11,7 +11,6 @@ enum PathNamesEnum {
 }
 
 export const Header = () => {
-  const theme = useTheme();
   const { pathname } = useLocation();
 
   return (
@@ -34,21 +33,21 @@ export const Header = () => {
           className={pathname === PathNamesEnum.aboutme ? "active" : ""}
         >
           <Text color="blue" fontWeight="bold">
-            <Link to="/">Sobre</Link>
+            <Link to={RoutePaths.about}>Sobre</Link>
           </Text>
         </S.MenuItemContainer>
         <S.MenuItemContainer
           className={pathname === PathNamesEnum.portifolio ? "active" : ""}
         >
           <Text color="blue" fontWeight="bold">
-            <Link to="/portifolio">Portifolio</Link>
+            <Link to={RoutePaths.portifolio}>Portifolio</Link>
           </Text>
         </S.MenuItemContainer>
         <S.MenuItemContainer
           className={pathname === PathNamesEnum.contato ? "active" : ""}
         >
           <Text color="blue" fontWeight="bold">
-            <Link to="/contact">Contato</Link>
+            <Link to={RoutePaths.contact}>Contato</Link>
           </Text>
         </S.MenuItemContainer>
       </S.MenuWrapper>
