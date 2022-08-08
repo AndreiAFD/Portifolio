@@ -14,7 +14,7 @@ export const Header = () => {
   const { pathname } = useLocation();
 
   return (
-    <S.Container>
+    <S.Container data-testid="header-test-id">
       <Text fontWeight="bold" alignItems="center" display="flex" color="text">
         <Text marginTop="0" marginRight="4px" color="blue">
           {"<"}
@@ -33,21 +33,30 @@ export const Header = () => {
           className={pathname === PathNamesEnum.aboutme ? "active" : ""}
         >
           <Text color="blue" fontWeight="bold">
-            <Link to={RoutePaths.about}>Sobre</Link>
+            <Link to={RoutePaths.about} data-testid="aboutme-link-testid">
+              Sobre
+            </Link>
           </Text>
         </S.MenuItemContainer>
         <S.MenuItemContainer
           className={pathname === PathNamesEnum.portifolio ? "active" : ""}
         >
           <Text color="blue" fontWeight="bold">
-            <Link to={RoutePaths.portifolio}>Portifolio</Link>
+            <Link
+              to={RoutePaths.portifolio}
+              data-testid="portifolio-link-testid"
+            >
+              Portifolio
+            </Link>
           </Text>
         </S.MenuItemContainer>
         <S.MenuItemContainer
           className={pathname === PathNamesEnum.contato ? "active" : ""}
         >
           <Text color="blue" fontWeight="bold">
-            <Link to={RoutePaths.contact}>Contato</Link>
+            <Link to={RoutePaths.contact} data-testid="contact-link-testid">
+              Contato
+            </Link>
           </Text>
         </S.MenuItemContainer>
       </S.MenuWrapper>

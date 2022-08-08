@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render correctly 1`] = `
+<div
+  class="sc-bczRLJ jUBbnS"
+  data-testid="header-test-id"
+>
+  <p
+    class="chakra-text css-1q74v14"
+  >
+    <p
+      class="chakra-text css-1mjrvz0"
+    >
+      &lt;
+    </p>
+    Frontend Developer
+    <p
+      class="chakra-text css-1g4gjga"
+    >
+      /
+    </p>
+    <p
+      class="chakra-text css-xdk3wv"
+    >
+      &gt;
+    </p>
+  </p>
+  <div
+    class="sc-gsnTZi jMsOSA"
+  >
+    <div
+      class="sc-dkzDqf cpCdiA active"
+    >
+      <p
+        class="chakra-text css-ahjfv1"
+      >
+        <a
+          data-testid="aboutme-link-testid"
+          href="/"
+        >
+          Sobre
+        </a>
+      </p>
+    </div>
+    <div
+      class="sc-dkzDqf cpCdiA"
+    >
+      <p
+        class="chakra-text css-ahjfv1"
+      >
+        <a
+          data-testid="portifolio-link-testid"
+          href="/portifolio"
+        >
+          Portifolio
+        </a>
+      </p>
+    </div>
+    <div
+      class="sc-dkzDqf cpCdiA"
+    >
+      <p
+        class="chakra-text css-ahjfv1"
+      >
+        <a
+          data-testid="contact-link-testid"
+          href="/contact"
+        >
+          Contato
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;

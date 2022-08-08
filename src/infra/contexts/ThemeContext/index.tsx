@@ -35,7 +35,7 @@ export const AppThemeContextProvider = ({ children }: { children: any }) => {
         handleChangeTheme,
       }}
     >
-      <ThemeProvider theme={theme[actualTheme]}>
+      <ThemeProvider theme={theme[actualTheme] as typeof theme["dark"]}>
         <ChakraProvider theme={chakraTheme}>{children}</ChakraProvider>
       </ThemeProvider>
     </AppThemeContext.Provider>

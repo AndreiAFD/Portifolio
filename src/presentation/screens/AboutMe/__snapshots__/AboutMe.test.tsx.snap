@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe screen should render correctly 1`] = `
+<div
+  class="css-si6xzh"
+  data-testid="aboutme-container-testid"
+/>
+`;
