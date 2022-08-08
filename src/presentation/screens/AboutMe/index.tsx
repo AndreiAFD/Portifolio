@@ -1,5 +1,6 @@
 import React from "react";
+import { Box } from "@chakra-ui/react";
 
 export const AboutMe = () => {
-  return <h1> salve app about me </h1>;
+  return <Box height="50vh" data-testid="aboutme-container-testid"></Box>;
 };

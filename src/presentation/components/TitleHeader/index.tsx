@@ -63,7 +63,10 @@ export const TitleHeader = () => {
   }, [animate]);
 
   return (
-    <S.Container className={animate ? "animate" : ""}>
+    <S.Container
+      className={animate ? "animate" : ""}
+      data-testid="TitleHeader-container-testid"
+    >
       {getCurrentPageName()}
     </S.Container>
   );

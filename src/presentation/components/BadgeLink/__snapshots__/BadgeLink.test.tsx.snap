@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BadgeLink component should render correctly 1`] = `
+<button
+  class="chakra-button css-1y6ftdq"
+  data-testid="badgelink-container-testid"
+  type="button"
+>
+  <a
+    class="chakra-link css-3zcpgt"
+    data-testid="badgelink-testid"
+    href="https://google.com"
+    target="_blank"
+  >
+    <img
+      class="chakra-image css-19xcex3"
+    />
+    Testing Google link
+  </a>
+</button>
+`;

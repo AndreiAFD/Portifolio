@@ -8,11 +8,12 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    
   }
 
   html, body, #root {
     height: 100%;
-
+    background-color: #EBEBEB;
   }
 
   @keyframes from-left-about {
@@ -55,12 +56,12 @@ export const GlobalStyles = createGlobalStyle`
   @keyframes title-header-shaddow {
     from {
       bottom: -200px;
-      transform: rotate(0deg);
+      transform: rotate(4deg);
     }
 
     to {
       bottom: -90px;
-      transform: rotate(-1.5deg);
+      transform: rotate(-2deg);
 
     }
   }

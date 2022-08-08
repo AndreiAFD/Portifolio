@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalStyles should render correctly 1`] = `
+Object {
+  "$$typeof": Symbol(react.memo),
+  "compare": null,
+  "type": [Function],
+}
+`;
