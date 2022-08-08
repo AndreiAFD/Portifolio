@@ -24,8 +24,8 @@ export const AppThemeContextProvider = ({ children }: { children: any }) => {
     },
   });
 
-  const handleChangeTheme = (theme: ThemeEnum) => {
-    setActualTheme(theme);
+  const handleChangeTheme = (nextTheme: ThemeEnum) => {
+    setActualTheme(nextTheme);
   };
 
   return (
