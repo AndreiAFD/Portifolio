@@ -1,9 +1,8 @@
-import { render } from "@testing-library/react";
 import React from "react";
-import App from "./App";
+import { GlobalStyles } from "./global-styles";
 
 describe("GlobalStyles", () => {
   it("should render correctly", () => {
-    render(<App />);
+    expect(GlobalStyles).toMatchSnapshot();
   });
 });

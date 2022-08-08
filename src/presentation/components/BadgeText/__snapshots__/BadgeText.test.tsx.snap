@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BadgeText component should render correctly 1`] = `
+<p
+  class="chakra-text css-1jrf8bc"
+  data-testid="badge-text-testid"
+>
+  Testing
+</p>
+`;
