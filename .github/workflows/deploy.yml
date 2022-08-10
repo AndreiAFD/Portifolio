@@ -1,0 +1,22 @@
+name: Surge Deploy
+on:
+  push:
+    tags: 
+      - release.*
+
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  surge:
+    name: Surge depolyment
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 
+      - name: Install dependencies
+        run: yarn
+      - name: Generante Build
+        run: yarn build
+      - name: Publish on surge 
+        run: yarn surge --project ./build --domain andrei-frontdev.surge.sh --token ${{secretes.SURGE_TOKEN}}
