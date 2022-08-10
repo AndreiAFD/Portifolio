@@ -19,4 +19,4 @@ jobs:
       - name: Generante Build
         run: yarn build
       - name: Publish on surge 
-        run: yarn surge --project ./build --domain andrei-frontdev.surge.sh --token ${{secretes.SURGE_TOKEN}}
+        run: yarn surge --project ./build --domain andrei-frontdev.surge.sh --token ${{secrets.SURGE_TOKEN}}
