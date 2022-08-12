@@ -2,14 +2,14 @@
 
 exports[`InfoBox component should render correctly 1`] = `
 <div
-  class="css-9v5im0"
+  class="css-8cgegm"
   data-testid="infobox-container-testid"
 >
   <div
     class="css-1lads1q"
   >
     <span
-      class="chakra-avatar css-1smty6o"
+      class="chakra-avatar css-1ni48nu"
     >
       <svg
         aria-label=" avatar"

@@ -21,7 +21,7 @@ export const AboutMe = () => {
       >
         <Title label="Quem sou eu ?" />
         <FadeIn>
-          <Text margin="33px 75px" fontWeight="medium">
+          <Text margin={["33px 30px", "33px 75px"]} fontWeight="medium">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             varius ac libero a rhoncus. Praesent nibh nunc, accumsan eget
             sollicitudin et, molestie at mauris. In placerat, tellus in congue
@@ -29,7 +29,7 @@ export const AboutMe = () => {
           </Text>
         </FadeIn>
         <FadeIn delay={400}>
-          <Text margin="0px 75px 40px" fontWeight="medium">
+          <Text fontWeight="medium" margin={["33px 30px", "33px 75px"]}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             varius ac libero a rhoncus. Praesent nibh nunc, accumsan eget
             sollicitudin et, molestie at mauris. In placerat, tellus in congue
@@ -37,10 +37,15 @@ export const AboutMe = () => {
           </Text>
         </FadeIn>
         <Title label="Principais Techs" />
-        <Flex gap="15px" margin="0 75px" marginTop="30px" flexWrap="wrap">
+        <Flex
+          gap={["12px", "15px"]}
+          margin={["0 30px", "33px 75px"]}
+          marginTop="30px"
+          flexWrap="wrap"
+        >
           {techs.map((tech, index) => {
             return (
-              <FadeIn delay={DEFAULT_DELAY * index}>
+              <FadeIn delay={DEFAULT_DELAY * index} key={index + tech}>
                 <BadgeText color={index % 2 === 0 ? "purple" : "blue"}>
                   {tech}
                 </BadgeText>

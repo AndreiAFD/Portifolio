@@ -24,13 +24,18 @@ function App() {
               marginTop="-87px"
               maxW="393px"
               marginBottom="20px"
+              display={["none", "none", "none", "initial"]}
             >
               <FadeIn>
                 <InfoBox />
               </FadeIn>
             </Box>
 
-            <Box position="relative" width="60%" marginTop="-87px">
+            <Box
+              position="relative"
+              width={["90%", "90%", "60%"]}
+              marginTop="-87px"
+            >
               <AppRoutes />
             </Box>
           </Flex>

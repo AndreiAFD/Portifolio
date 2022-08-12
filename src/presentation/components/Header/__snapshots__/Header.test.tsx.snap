@@ -2,11 +2,11 @@
 
 exports[`Header component should render correctly 1`] = `
 <div
-  class="sc-bczRLJ jUBbnS"
+  class="sc-bczRLJ fwjyiK"
   data-testid="header-test-id"
 >
   <p
-    class="chakra-text css-1q74v14"
+    class="chakra-text css-32mpo0"
   >
     <p
       class="chakra-text css-1mjrvz0"
@@ -26,7 +26,7 @@ exports[`Header component should render correctly 1`] = `
     </p>
   </p>
   <div
-    class="sc-gsnTZi jMsOSA"
+    class="sc-gsnTZi fmvgwK"
   >
     <div
       class="sc-dkzDqf cpCdiA active"

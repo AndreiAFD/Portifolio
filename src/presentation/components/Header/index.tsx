@@ -15,7 +15,14 @@ export const Header = () => {
 
   return (
     <S.Container data-testid="header-test-id">
-      <Text fontWeight="bold" alignItems="center" display="flex" color="text">
+      <Text
+        fontWeight="bold"
+        alignItems="center"
+        display="flex"
+        color="text"
+        fontSize={["13px", "13px", "18px"]}
+        flex="1"
+      >
         <Text marginTop="0" marginRight="4px" color="blue">
           {"<"}
         </Text>

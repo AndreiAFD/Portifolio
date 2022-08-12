@@ -15,10 +15,15 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100;
+
+  @media (max-width: 414px) {
+    padding: 0 10px;
+  }
 `;
 
 export const MenuWrapper = styled.div`
   display: flex;
+  justify-content: flex-end;
 `;
 
 export const MenuItemContainer = styled.div`
