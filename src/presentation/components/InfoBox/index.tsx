@@ -10,7 +10,7 @@ export const InfoBox = () => {
   return (
     <Box
       width="100%"
-      height="100%"
+      // height="100%"
       background="#ffffff"
       boxShadow={"-4px 4px 8px #00000050"}
       padding="36px"
@@ -22,8 +22,8 @@ export const InfoBox = () => {
         <Avatar
           src={PerfilImg}
           size="full"
-          maxWidth="200px"
-          maxHeight="200px"
+          maxWidth="250px"
+          maxHeight="250px"
           margin="0 25%"
         />
       </Flex>

@@ -17,17 +17,17 @@ function App() {
           <Header />
           <TitleHeader />
           <Flex height="100%" justifyContent={"center"} gap="5%">
-            <Box position="relative" width="30%" marginTop="-87px" maxW="393px">
-              <InfoBox />
-            </Box>
             <Box
               position="relative"
-              background="white"
-              width="60%"
+              width="30%"
               marginTop="-87px"
-              borderRadius="20px"
-              boxShadow={"-4px 4px 8px #00000050"}
+              maxW="393px"
+              marginBottom="20px"
             >
+              <InfoBox />
+            </Box>
+
+            <Box position="relative" width="60%" marginTop="-87px">
               <AppRoutes />
             </Box>
           </Flex>

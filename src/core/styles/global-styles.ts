@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: #EBEBEB;
   }
 
+
   @keyframes from-left-about {
     from {
       opacity: 0;
