@@ -1,0 +1,24 @@
+
+
+name: QAS Deploy
+on:
+  push:
+    tags: 
+      - beta.*
+
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  surge:
+    name: Surge depolyment
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 
+      - name: Install dependencies
+        run: yarn
+      - name: Generante Build
+        run: yarn build
+      - name: Publish on surge 
+        run: yarn surge --project ./build --domain beta-andrei-frontdev.surge.sh --token ${{secrets.SURGE_TOKEN}}
