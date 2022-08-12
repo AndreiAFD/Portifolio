@@ -1,6 +1,6 @@
 
 
-name: Surge Deploy
+name: QAS Deploy
 on:
   push:
     tags: 
