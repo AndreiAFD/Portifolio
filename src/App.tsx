@@ -1,4 +1,5 @@
 import React from "react";
+import FadeIn from "react-fade-in";
 import { Header } from "./presentation/components/Header";
 import { GlobalStyles } from "./core/styles/global-styles";
 import { AppThemeContextProvider } from "./infra/contexts/ThemeContext";
@@ -24,7 +25,9 @@ function App() {
               maxW="393px"
               marginBottom="20px"
             >
-              <InfoBox />
+              <FadeIn>
+                <InfoBox />
+              </FadeIn>
             </Box>
 
             <Box position="relative" width="60%" marginTop="-87px">
