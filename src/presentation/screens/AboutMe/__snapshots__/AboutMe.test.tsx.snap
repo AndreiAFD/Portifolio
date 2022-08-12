@@ -6,7 +6,7 @@ exports[`AboutMe screen should render correctly 1`] = `
   data-testid="aboutme-container-testid"
 >
   <div
-    class="css-1qpag0w"
+    class="css-17xy7xo"
   >
     <p
       class="chakra-text css-fbgbxk"
@@ -24,8 +24,6 @@ exports[`AboutMe screen should render correctly 1`] = `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius ac libero a rhoncus. Praesent nibh nunc, accumsan eget sollicitudin et, molestie at mauris. In placerat, tellus in congue fermentum, neque elit feugiat orci, eu pretium leo est eget lorem.
       </p>
     </div>
-  </div>
-  <div>
     <div
       style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
     >
@@ -35,269 +33,277 @@ exports[`AboutMe screen should render correctly 1`] = `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius ac libero a rhoncus. Praesent nibh nunc, accumsan eget sollicitudin et, molestie at mauris. In placerat, tellus in congue fermentum, neque elit feugiat orci, eu pretium leo est eget lorem.
       </p>
     </div>
-  </div>
-  <div
-    class="css-1qpag0w"
-  >
-    <p
-      class="chakra-text css-fbgbxk"
+    <div
+      style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
     >
-      Principais Techs
-    </p>
-  </div>
-  <div
-    class="css-19innnr"
-  >
-    <div>
       <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+        class="css-17xy7xo"
       >
         <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
+          class="chakra-text css-fbgbxk"
         >
-          React
+          Principais Techs
         </p>
       </div>
     </div>
-    <div>
+    <div
+      style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+    >
       <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+        class="css-11n51jl"
       >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          React Native
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          Firebase
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          Typescript
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          CI/CD
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          GraphQL
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          Redux
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          Jest
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          HTML
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          CSS
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          JavaScript
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          Android
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          IOS
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          Play Store
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          Apple Store
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          Maps API
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          API REST
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          NodeJS
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          Styled Components
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1jrf8bc"
-          data-testid="badge-text-testid"
-        >
-          Material UI
-        </p>
-      </div>
-    </div>
-    <div>
-      <div
-        style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
-      >
-        <p
-          class="chakra-text css-1piqu9x"
-          data-testid="badge-text-testid"
-        >
-          Chakra UI
-        </p>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              React
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              React Native
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              Firebase
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              Typescript
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              CI/CD
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              GraphQL
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              Redux
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              Jest
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              HTML
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              CSS
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              JavaScript
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              Android
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              IOS
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              Play Store
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              Apple Store
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              Maps API
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              API REST
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              NodeJS
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              Styled Components
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-63qbpm"
+              data-testid="badge-text-testid"
+            >
+              Material UI
+            </p>
+          </div>
+        </div>
+        <div>
+          <div
+            style="transition: opacity 400ms, transform 400ms; transform: translateY(20px); opacity: 0;"
+          >
+            <p
+              class="chakra-text css-kmn13v"
+              data-testid="badge-text-testid"
+            >
+              Chakra UI
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

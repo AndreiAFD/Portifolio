@@ -20,39 +20,39 @@ export const AboutMe = () => {
         paddingBottom="65px"
       >
         <Title label="Quem sou eu ?" />
-        <FadeIn>
+        <FadeIn delay={200}>
           <Text margin={["33px 30px", "33px 75px"]} fontWeight="medium">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             varius ac libero a rhoncus. Praesent nibh nunc, accumsan eget
             sollicitudin et, molestie at mauris. In placerat, tellus in congue
             fermentum, neque elit feugiat orci, eu pretium leo est eget lorem.
           </Text>
-        </FadeIn>
-        <FadeIn delay={400}>
+
           <Text fontWeight="medium" margin={["33px 30px", "33px 75px"]}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             varius ac libero a rhoncus. Praesent nibh nunc, accumsan eget
             sollicitudin et, molestie at mauris. In placerat, tellus in congue
             fermentum, neque elit feugiat orci, eu pretium leo est eget lorem.
           </Text>
+
+          <Title label="Principais Techs" />
+          <Flex
+            gap={["12px", "15px"]}
+            margin={["0 30px", "33px 75px"]}
+            marginTop="30px"
+            flexWrap="wrap"
+          >
+            {techs.map((tech, index) => {
+              return (
+                <FadeIn delay={DEFAULT_DELAY * index} key={index + tech}>
+                  <BadgeText color={index % 2 === 0 ? "purple" : "blue"}>
+                    {tech}
+                  </BadgeText>
+                </FadeIn>
+              );
+            })}
+          </Flex>
         </FadeIn>
-        <Title label="Principais Techs" />
-        <Flex
-          gap={["12px", "15px"]}
-          margin={["0 30px", "33px 75px"]}
-          marginTop="30px"
-          flexWrap="wrap"
-        >
-          {techs.map((tech, index) => {
-            return (
-              <FadeIn delay={DEFAULT_DELAY * index} key={index + tech}>
-                <BadgeText color={index % 2 === 0 ? "purple" : "blue"}>
-                  {tech}
-                </BadgeText>
-              </FadeIn>
-            );
-          })}
-        </Flex>
       </Box>
     </FadeIn>
   );

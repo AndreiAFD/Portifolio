@@ -16,9 +16,10 @@ export const BadgeText = ({ color, children }: BadgeTextProps) => {
       borderColor={theme[color]}
       color={theme[color]}
       display="inline-block"
-      padding="1px 10px"
+      padding="3px 10px"
       borderRadius="20px"
       data-testid="badge-text-testid"
+      fontSize="15px"
     >
       {children}
     </Text>

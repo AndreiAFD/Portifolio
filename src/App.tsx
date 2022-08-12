@@ -24,7 +24,7 @@ function App() {
               marginTop="-87px"
               maxW="393px"
               marginBottom="20px"
-              display={["none", "none", "none", "initial"]}
+              display={["none", "none", "initial"]}
             >
               <FadeIn>
                 <InfoBox />
@@ -35,6 +35,7 @@ function App() {
               position="relative"
               width={["90%", "90%", "60%"]}
               marginTop="-87px"
+              marginBottom="40px"
             >
               <AppRoutes />
             </Box>

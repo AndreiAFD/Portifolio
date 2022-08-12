@@ -5,6 +5,7 @@ import { BadgeText } from "../BadgeText";
 import { BadgeLink } from "../BadgeLink";
 import Linkedin from "../../assets/icons/linkedin.png";
 import WhatsApp from "../../assets/icons/whatsapp.png";
+import { SizeProps, Title } from "../Title";
 
 export const InfoBox = () => {
   return (
@@ -34,22 +35,12 @@ export const InfoBox = () => {
         <BadgeText color="blue">Disponível</BadgeText>
       </Flex>
 
-      <Text marginTop="16px" fontSize="15px">
+      <Text marginTop="16px" fontSize="15px" marginBottom="25px">
         Desenvolvedor frontend autônomo apaixonado por tecnologia.
       </Text>
+      <Title size={SizeProps.md} label="Informações de contato" />
 
-      <Box
-        borderBottom="1px solid "
-        borderBottomColor="purple"
-        marginTop="61px"
-        marginBottom="30px"
-      >
-        <Text color="purple" fontSize="18px" fontWeight="bold">
-          Informações de contato
-        </Text>
-      </Box>
-
-      <Flex>
+      <Flex marginTop="15px">
         <Text
           fontSize="16px"
           fontWeight="regular"

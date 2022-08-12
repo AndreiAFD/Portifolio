@@ -37,28 +37,28 @@ exports[`InfoBox component should render correctly 1`] = `
       Andrei Amaral
     </p>
     <p
-      class="chakra-text css-1jrf8bc"
+      class="chakra-text css-63qbpm"
       data-testid="badge-text-testid"
     >
       Disponível
     </p>
   </div>
   <p
-    class="chakra-text css-1lvapru"
+    class="chakra-text css-1hen3ta"
   >
     Desenvolvedor frontend autônomo apaixonado por tecnologia.
   </p>
   <div
-    class="css-1kvar6p"
+    class="css-17xy7xo"
   >
     <p
-      class="chakra-text css-1j2594v"
+      class="chakra-text css-1hc4vyr"
     >
       Informações de contato
     </p>
   </div>
   <div
-    class="css-k008qs"
+    class="css-13v6rjs"
   >
     <p
       class="chakra-text css-1drml6o"

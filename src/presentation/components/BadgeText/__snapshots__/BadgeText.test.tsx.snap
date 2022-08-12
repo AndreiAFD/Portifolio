@@ -2,7 +2,7 @@
 
 exports[`BadgeText component should render correctly 1`] = `
 <p
-  class="chakra-text css-1jrf8bc"
+  class="chakra-text css-63qbpm"
   data-testid="badge-text-testid"
 >
   Testing

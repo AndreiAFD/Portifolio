@@ -1,20 +1,27 @@
 import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 
-interface TitleProps {
-  label: string;
+export enum SizeProps {
+  sm = "16px",
+  md = "16px",
+  lg = "27px",
 }
 
-export const Title = ({ label }: TitleProps) => {
+interface TitleProps {
+  label: string;
+  size?: SizeProps;
+}
+
+export const Title = ({ label, size = SizeProps.lg }: TitleProps) => {
   return (
     <Box
-      borderBottom="3px solid"
+      borderBottom="1px solid"
       borderBottomColor="blue"
       display="inline-block"
       textAlign="right"
       paddingLeft="7%"
     >
-      <Text fontSize={["27px"]} fontWeight="bold" color="blue">
+      <Text fontSize={size} fontWeight="bold" color="blue">
         {label}
       </Text>
     </Box>
